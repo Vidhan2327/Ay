@@ -7,8 +7,7 @@
 <link rel="shortcut icon" href="android-chrome-512x512.png
 " type="image/x-icon">
   <style>
-    
-    * {
+   * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -74,6 +73,34 @@
 
     #foreverButton:hover {
       background-color: #ff3b3f;
+    }
+
+    
+    @media screen and (max-width: 768px) {
+      .container {
+        max-width: 90%;
+        margin: 30px auto;
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      .heart {
+        width: 80px;
+      }
+
+      #foreverButton {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
     }
   </style>
 
